@@ -1,0 +1,256 @@
+@font-face {
+  font-family: "Segoe UI-Semibold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/SegoeUI-Semibold") format("truetype");
+}
+@font-face {
+  font-family: "Segoe UI-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/SegoeUI-Regular") format("truetype");
+}
+@font-face {
+  font-family: "Segoe UI-SemiboldItalic";
+  font-style: italic;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/SegoeUI-SemiboldItalic") format("truetype");
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 960px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.overlap-group3 {
+  height: 1026px;
+  margin-left: -168px;
+  margin-top: -4px;
+  position: relative;
+  width: 1614px;
+}
+
+.ai_-bg_bw-1 {
+  height: 943px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 82px;
+  width: 1440px;
+}
+
+.overlap-group {
+  align-items: flex-end;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  left: 398px;
+  min-height: 316px;
+  padding: 20px 35.5px;
+  position: absolute;
+  top: 389px;
+  width: 991px;
+}
+
+.overlap-group1 {
+  height: 133px;
+  margin-right: 32.45px;
+  position: relative;
+  width: 863px;
+}
+
+.hello-jon {
+  left: 0;
+  letter-spacing: -0.53px;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 88px;
+  width: 863px;
+}
+
+.wmt-logo-centre {
+  height: 111px;
+  left: 357px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 156px;
+}
+
+.paragraph {
+  height: 38px;
+  margin-top: 12px;
+  width: 915px;
+}
+
+.button-container {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  margin-right: 8px;
+  margin-top: 28px;
+  min-width: 873px;
+}
+
+.create-report-button {
+  align-items: center;
+  background-color: var(--science-blue);
+  border-radius: 4px;
+  box-shadow: 0px 1.6px 3.6px 
+#0000001c, 0px 0.3px 0.9px 
+#00000012;
+  display: flex;
+  gap: 4px;
+  height: 50px;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 415px;
+}
+
+.icon-text-limiter {
+  align-items: center;
+  display: flex;
+  height: 32px;
+  min-width: 381px;
+}
+
+.text-button {
+  height: 26px;
+  letter-spacing: 0;
+  line-height: 19px;
+  text-align: center;
+  width: 381px;
+}
+
+.view-existing-reports-button {
+  align-items: center;
+  background-color: var(--science-blue-2);
+  border-radius: 4px;
+  box-shadow: 0px 1.6px 3.6px 
+#0000001c, 0px 0.3px 0.9px 
+#00000012;
+  display: flex;
+  gap: 4px;
+  height: 50px;
+  margin-left: 41px;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 417px;
+}
+
+.icon-text-limiter-1 {
+  align-items: center;
+  display: flex;
+  height: 32px;
+  margin-right: -2px;
+  min-width: 395px;
+}
+
+.text-button-1 {
+  height: 19px;
+  letter-spacing: 0;
+  line-height: 19px;
+  text-align: center;
+  white-space: nowrap;
+  width: 380px;
+}
+
+.overlap-group2 {
+  height: 107px;
+  left: 168px;
+  position: absolute;
+  top: 2px;
+  width: 1440px;
+}
+
+.white-bar {
+  background-color: var(--white);
+  height: 100px;
+  left: 0;
+  position: absolute;
+  top: 3px;
+  width: 1440px;
+}
+
+.highlighted-grey-button {
+  background-color: var(--mist-gray);
+  border-radius: 15px;
+  height: 49px;
+  left: 336px;
+  position: absolute;
+  top: 25px;
+  width: 84px;
+}
+
+.walmart-top-logo {
+  height: 107px;
+  left: 53px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 156px;
+}
+
+.lineright {
+  height: 30px;
+  left: 1297px;
+  position: absolute;
+  top: 38px;
+  width: 1px;
+}
+
+.playground {
+  height: 14px;
+  left: 343px;
+  position: absolute;
+  top: 46px;
+  width: 67px;
+}
+
+.report-hub {
+  height: 14px;
+  left: 236px;
+  position: absolute;
+  top: 42px;
+  width: 68px;
+}
+
+.welcome-jon {
+  height: 52px;
+  left: 1319px;
+  letter-spacing: -0.15px;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 24px;
+  width: 89px;
+}

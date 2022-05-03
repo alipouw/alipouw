@@ -1,0 +1,548 @@
+@font-face {
+    font-family: "Segoe UI-Semibold";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.animaapp.com/SegoeUI-Semibold") format("truetype");
+  }
+  @font-face {
+    font-family: "Segoe UI-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.animaapp.com/SegoeUI-Regular") format("truetype");
+  }
+  @font-face {
+    font-family: "Segoe UI-SemiboldItalic";
+    font-style: italic;
+    font-weight: 400;
+    src: url("https://fonts.animaapp.com/SegoeUI-SemiboldItalic") format("truetype");
+  }
+  
+  .screen a {
+    display: contents;
+    text-decoration: none;
+  }
+  
+  .container-center-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    pointer-events: none;
+    width: 100%;
+  }
+  
+  .container-center-horizontal > * {
+    flex-shrink: 0;
+    pointer-events: auto;
+  }
+  
+  .valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .create-visual-choose-visual-type {
+    align-items: flex-start;
+    background-color: var(--white);
+    display: flex;
+    height: 960px;
+    overflow: hidden;
+    width: 1440px;
+  }
+  
+  .overlap-group10 {
+    height: 1026px;
+    margin-left: -168px;
+    margin-top: -4px;
+    position: relative;
+    width: 1614px;
+  }
+  
+  .ai_-bg_bw-1 {
+    height: 943px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 82px;
+    width: 1440px;
+  }
+  
+  .rectangle-37 {
+    background-color: var(--alto);
+    height: 668px;
+    left: 270px;
+    position: absolute;
+    top: 220px;
+    width: 1029px;
+  }
+  
+  .image-container {
+    height: 34px;
+    left: 269px;
+    position: absolute;
+    top: 854px;
+    width: 1029px;
+  }
+  
+  .image-24 {
+    height: 34px;
+    left: 167px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 862px;
+  }
+  
+  .image-27 {
+    height: 34px;
+    left: 57px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 111px;
+  }
+  
+  .image-25 {
+    height: 34px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 62px;
+  }
+  
+  .overlap-group1 {
+    height: 107px;
+    left: 168px;
+    position: absolute;
+    top: 2px;
+    width: 1440px;
+  }
+  
+  .white-bar {
+    background-color: var(--white);
+    height: 100px;
+    left: 0;
+    position: absolute;
+    top: 3px;
+    width: 1440px;
+  }
+  
+  .highlighted-grey-button {
+    background-color: var(--mist-gray);
+    border-radius: 15px;
+    height: 49px;
+    left: 336px;
+    position: absolute;
+    top: 25px;
+    width: 84px;
+  }
+  
+  .walmart-top-logo {
+    height: 107px;
+    left: 53px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 156px;
+  }
+  
+  .lineright {
+    height: 30px;
+    left: 1297px;
+    position: absolute;
+    top: 38px;
+    width: 1px;
+  }
+  
+  .playground {
+    height: 14px;
+    left: 343px;
+    position: absolute;
+    top: 46px;
+    width: 67px;
+  }
+  
+  .report-hub {
+    height: 14px;
+    left: 236px;
+    position: absolute;
+    top: 42px;
+    width: 68px;
+  }
+  
+  .welcome-jon {
+    height: 52px;
+    left: 1319px;
+    letter-spacing: -0.15px;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 24px;
+    width: 89px;
+  }
+  
+  .top-bar-pbi-embedded-report {
+    height: 25px;
+    left: 270px;
+    object-fit: cover;
+    position: absolute;
+    top: 220px;
+    width: 1029px;
+  }
+  
+  .blur-main-page {
+    background-color: var(--white-2);
+    height: 668px;
+    left: 270px;
+    position: absolute;
+    top: 220px;
+    width: 1029px;
+  }
+  
+  .rectangle-3461 {
+    background-color: var(--science-blue);
+    height: 64px;
+    left: 1312px;
+    position: absolute;
+    top: 220px;
+    width: 196px;
+  }
+  
+  .actions {
+    height: 30px;
+    left: 1312px;
+    letter-spacing: 0;
+    line-height: 19px;
+    position: absolute;
+    text-align: center;
+    top: 238px;
+    width: 195px;
+  }
+  
+  .blur-side-bar {
+    background-color: var(--white-2);
+    height: 668px;
+    left: 1312px;
+    position: absolute;
+    top: 220px;
+    width: 196px;
+  }
+  
+  .build-visual-whitespace {
+    background-color: var(--white);
+    height: 438px;
+    left: 420px;
+    position: absolute;
+    top: 332px;
+    width: 767px;
+  }
+  
+  .blank-canvas {
+    height: 325px;
+    left: 680px;
+    object-fit: cover;
+    position: absolute;
+    top: 407px;
+    width: 492px;
+  }
+  
+  .overlap-group3 {
+    align-items: flex-start;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    height: 31px;
+    left: 420px;
+    min-width: 767px;
+    padding: 4.2px 7px;
+    position: absolute;
+    top: 333px;
+  }
+  
+  .choose-visual-type {
+    height: 22px;
+    letter-spacing: -0.13px;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    width: 267px;
+  }
+  
+  .report-buttons {
+    align-items: center;
+    background-color: var(--concrete);
+    display: flex;
+    flex-direction: column;
+    left: 1312px;
+    min-height: 668px;
+    padding: 112.4px 0;
+    position: absolute;
+    top: 220px;
+    width: 196px;
+  }
+  
+  .overlap-group1-1 {
+    background-color: var(--my-sin);
+    border-radius: 10px;
+    height: 87px;
+    margin-top: 1px;
+    position: relative;
+    width: 172px;
+  }
+  
+  .white-blue-outer {
+    height: 74px;
+    left: 5px;
+    position: absolute;
+    top: 5px;
+    width: 161px;
+  }
+  
+  .capture-view,
+  .existing-reports {
+    height: 63px;
+    left: 49px;
+    letter-spacing: 0;
+    line-height: 19px;
+    position: absolute;
+    top: 11px;
+    width: 116px;
+  }
+  
+  .star-add {
+    height: 50px;
+    left: 10px;
+    position: absolute;
+    top: 17px;
+    width: 31px;
+  }
+  
+  .overlap-group {
+    background-color: var(--my-sin);
+    border-radius: 10px;
+    height: 87px;
+    margin-top: 91px;
+    position: relative;
+    width: 172px;
+  }
+  
+  .text-bullet-list-checkmark {
+    height: 63px;
+    left: 6px;
+    position: absolute;
+    top: 15px;
+    width: 35px;
+  }
+  
+  .saved-views {
+    height: 63px;
+    left: 49px;
+    letter-spacing: 0;
+    line-height: 19px;
+    position: absolute;
+    top: 11px;
+    width: 108px;
+  }
+  
+  .report-document-e9-f9 {
+    background-image: url(shape.svg);
+    background-size: 100% 100%;
+    height: 25px;
+    left: 20px;
+    position: absolute;
+    top: 31px;
+    width: 15px;
+  }
+  
+  .create-report-button {
+    align-items: center;
+    background-color: var(--science-blue-2);
+    border-radius: 4px;
+    box-shadow: 0px 1.6px 3.6px 
+  #0000001c, 0px 0.3px 0.9px 
+  #00000012;
+    display: flex;
+    gap: 4px;
+    height: 30px;
+    left: 1096px;
+    padding-left: 12px;
+    padding-right: 12px;
+    position: absolute;
+    top: 736px;
+    width: 76px;
+  }
+  
+  .create {
+    height: 22px;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: center;
+    white-space: nowrap;
+    width: 42px;
+  }
+  
+  .area-chart {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 462px;
+    min-height: 83px;
+    position: absolute;
+    top: 408px;
+    width: 68px;
+  }
+  
+  .overlap-group4 {
+    align-items: flex-start;
+    background-color: var(--cararra);
+    display: flex;
+    height: 66px;
+    min-width: 66px;
+    padding: 7px 9px;
+  }
+  
+  .charttypearea-48-area-chart-type {
+    height: 48px;
+    width: 48px;
+  }
+  
+  .area-chart-1 {
+    height: 16px;
+    letter-spacing: -0.13px;
+    line-height: 24px;
+    margin-bottom: -8px;
+    margin-top: 1px;
+    text-align: center;
+    white-space: nowrap;
+    width: 66px;
+  }
+  
+  .column-chart {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 458px;
+    min-height: 82px;
+    position: absolute;
+    top: 525px;
+    width: 77px;
+  }
+  
+  .overlap-group5 {
+    align-items: flex-end;
+    background-color: var(--cararra);
+    display: flex;
+    height: 66px;
+    margin-left: 4px;
+    min-width: 66px;
+    padding: 8px 9px;
+  }
+  
+  .x-48 {
+    height: 48px;
+    width: 48px;
+  }
+  
+  .column-chart-1 {
+    height: 16px;
+    letter-spacing: -0.13px;
+    line-height: 24px;
+    margin-bottom: -8px;
+    text-align: center;
+    white-space: nowrap;
+    width: 75px;
+  }
+  
+  .column-chart.scatter-chart {
+    align-items: center;
+    top: 642px;
+  }
+  
+  .column-chart.scatter-chart .overlap-group5,
+  .column-chart.pie-chart .overlap-group5 {
+    margin-left: unset;
+    margin-right: 1px;
+  }
+  
+  .column-chart.scatter-chart .column-chart-1,
+  .column-chart.pie-chart .column-chart-1 {
+    margin-right: 2px;
+  }
+  
+  .column-chart.pie-chart {
+    align-items: center;
+    left: 572px;
+    top: 642px;
+  }
+  
+  .bar-chart {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 576px;
+    min-height: 82px;
+    position: absolute;
+    top: 525px;
+    width: 77px;
+  }
+  
+  .overlap-group8 {
+    align-items: flex-end;
+    background-color: var(--cararra);
+    display: flex;
+    height: 66px;
+    margin-left: 2px;
+    min-width: 66px;
+    padding: 8px 9px;
+  }
+  
+  .charttypepercentstac {
+    height: 48px;
+    width: 48px;
+  }
+  
+  .bar-chart-1 {
+    height: 16px;
+    letter-spacing: -0.13px;
+    line-height: 24px;
+    margin-bottom: -8px;
+    text-align: center;
+    white-space: nowrap;
+    width: 75px;
+  }
+  
+  .line-chart {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 578px;
+    min-height: 82px;
+    position: absolute;
+    top: 408px;
+    width: 68px;
+  }
+  
+  .overlap-group9 {
+    align-items: flex-start;
+    background-color: var(--cararra);
+    display: flex;
+    height: 66px;
+    min-width: 66px;
+    padding: 7px 9px;
+  }
+  
+  .charttypeline-48-chart-type-line {
+    height: 48px;
+    width: 48px;
+  }
+  
+  .line-chart-1 {
+    height: 16px;
+    letter-spacing: -0.13px;
+    line-height: 24px;
+    margin-bottom: -8px;
+    text-align: center;
+    white-space: nowrap;
+    width: 66px;
+  }
